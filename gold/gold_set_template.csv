@@ -1,0 +1,7 @@
+id,date,source,company,excerpt,human_label,model_label,notes
+demo-01,2026-08-01,synthetic,Example Logistics Co.,"Notice cites adoption of automated routing and AI dispatch systems as the reason for eliminating 140 dispatcher positions.",,,
+demo-02,2026-08-03,synthetic,Example Retail Corp.,"Company announces closure of two distribution centers due to declining sales and lease expiration.",,,
+demo-03,2026-08-10,synthetic,Example Media LLC,"Restructuring memo references efficiency initiatives including new content tools; 60 editorial roles affected.",,,
+demo-04,2026-08-15,synthetic,Example Insurance Group,"Layoff filing attributes claims-processing reductions to deployment of machine-learning claims triage.",,,
+demo-05,2026-08-18,synthetic,Example Foods Inc.,"Seasonal plant shutdown affecting 220 workers; no cause beyond seasonality stated.",,,
+demo-06,2026-08-22,synthetic,Example SoftWorks,"CEO letter says AI coding assistants let smaller teams ship the roadmap; 12% of engineering roles cut.",,,

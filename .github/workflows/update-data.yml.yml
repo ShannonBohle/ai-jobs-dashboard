@@ -1,0 +1,30 @@
+name: Daily data update
+on:
+  schedule:
+    - cron: "17 9 * * *"   # daily, 09:17 UTC (~5:17 a.m. ET)
+  workflow_dispatch: {}     # allows manual "Run workflow" button
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install deps
+        run: pip install -r requirements.txt
+      - name: Scrape WARN archives (failed states keep their committed copies)
+        run: python src/ingest_warn.py ny tx wa il
+        continue-on-error: true
+      - name: Rebuild web data
+        run: python src/make_web_data.py --judge "mistral:7b-instruct (rubric v3)"
+      - name: Commit and push if changed
+        run: |
+          git config user.name "data-bot"
+          git config user.email "actions@github.com"
+          git add data/raw/warn gold/events.csv dashboard-app/public/data
+          git diff --cached --quiet && echo "no changes" || (git commit -m "Daily data refresh $(date -u +%F)" && git push)

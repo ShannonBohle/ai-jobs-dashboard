@@ -1,0 +1,15 @@
+id,date,source,company,location,jobs,excerpt,human_label
+warn-5022,2026-04-13,ny,Nespresso,New York,46,"Relocation of Business, Artificial Intelligence",yes
+warn-1767,,il,COLONIAL PENN,DOWNERS GROVE,67,Plant Closure,no
+warn-3772,,il,,Chicago,41,Layoff,no
+warn-4905,2026-04-12,ny,Catholic Guardian Services (Rescission),Bronx,0,Contract Termination,no
+warn-5020,2026-05-27,ny,Morgan Stanley,New York,1,Other,no
+warn-624,,il,"ARCH OF ILLINOIS, INC.- DENMARK MINES",CAMPBELL HILL,120,Mass Layoff,no
+warn-4913,2026-04-14,ny,"Citibank, N.A.",New York,820,Economic,no
+warn-5072,2026-05-29,ny,Tourmaline Bio Inc.,New York,60,Merger,no
+warn-4918,2026-03-13,ny,DF NY One Inc. d/b/a Dreamfields,Westchester,13,Contract Loss Funding Loss,no
+press-01,2026-04-15,press-sec,Snap,,1000,"CEO memo via SEC filing: ""rapid advancements in artificial intelligence enable our teams to reduce repetitive work"" and increase velocity; cuts explicitly tied to AI advancements.",yes
+press-02,2026-06-23,press-sec,Oracle,,21000,"Regulatory filing: ""the adoption and deployment of AI technologies across our operations have resulted, and may continue to result, in reductions to our workforce.""",yes
+press-03,2026-02-27,press-guardian,Block,,4000,"“Intelligence tools have changed what it means to build and run a company...A significantly smaller team, using the tools we’re building, can do more and do it better. And intelligence tool capabilities are compounding faster every week.”",yes
+press-04,2026-05-07,press-blog,Cloudflare,,1100,"Founders' letter on company blog: ""Today’s actions are not a cost-cutting exercise or an assessment of individuals’ performance; they are about Cloudflare defining how a world-class, high-growth company operates and creates value in the agentic AI era.""",yes
+press-05,2026-05-13,press-blog,Cisco,,4000,"CEO email on company blog: reduction of fewer than 4,000 tied to a rapidly changing market, intensifying competition, and a global component shortage amid ""the AI buildout from our customers""; framed as cost-structure discipline to win in the AI era.",no

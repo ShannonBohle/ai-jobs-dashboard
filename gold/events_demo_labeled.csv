@@ -1,0 +1,7 @@
+id,date,source,company,excerpt,human_label,model_label,notes,model_rationale
+demo-01,2026-08-01,synthetic,Example Logistics Co.,Notice cites adoption of automated routing and AI dispatch systems as the reason for eliminating 140 dispatcher positions.,yes,yes,,mock keyword heuristic (offline test only)
+demo-02,2026-08-03,synthetic,Example Retail Corp.,Company announces closure of two distribution centers due to declining sales and lease expiration.,no,no,,mock keyword heuristic (offline test only)
+demo-03,2026-08-10,synthetic,Example Media LLC,Restructuring memo references efficiency initiatives including new content tools; 60 editorial roles affected.,unclear,unclear,,mock keyword heuristic (offline test only)
+demo-04,2026-08-15,synthetic,Example Insurance Group,Layoff filing attributes claims-processing reductions to deployment of machine-learning claims triage.,yes,yes,,mock keyword heuristic (offline test only)
+demo-05,2026-08-18,synthetic,Example Foods Inc.,Seasonal plant shutdown affecting 220 workers; no cause beyond seasonality stated.,no,no,,mock keyword heuristic (offline test only)
+demo-06,2026-08-22,synthetic,Example SoftWorks,CEO letter says AI coding assistants let smaller teams ship the roadmap; 12% of engineering roles cut.,yes,yes,,mock keyword heuristic (offline test only)
