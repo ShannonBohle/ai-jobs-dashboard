@@ -186,5 +186,9 @@ Approved rows → `git commit` → `git push` → the existing **Daily data upda
 
 The gold set outgrowing a single CSV (move to per-year files past a few hundred rows); rubric v4 once disagreement patterns justify distinguishing "AI named as cause" from "AI-era framing" (the Cisco class) — with the mandatory version bump + κ re-run; a second human labeler for a true inter-annotator κ; the adoption layer (Census BTOS, Anthropic Economic Index, Indeed Hiring Lab postings, JOLTS) as the paper's roadmap already states; and Challenger licensing or a media-request pipeline if the project earns a newsroom home.
 
+## 16 - Phase 2: supervised training (outline)
+
+Phase 1 measures a frozen pretrained judge against human labels and publishes the agreement. Phase 2 begins once editorial approvals have accumulated a few hundred labeled rows as a byproduct of running the tracker. The labeled set is then split into train, dev, and held-out test partitions. The local judge is fine-tuned, or a small supervised classifier is trained, on the training split only. The new judge ships as a numbered version with its kappa reported on held-out rows it has never seen, under the same freeze-then-measure discipline as rubric v3: pinned weights, recorded hash, and full re-calibration before first use. Training never touches the rows used for the published test statistic.
+
 ---
-*Companion documents: HANDOVER.md (state + queue), METHODS.md (measurement discipline the agent must not violate).*
+*Companion documents: METHODS.md (measurement discipline the agent must not violate).*
