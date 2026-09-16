@@ -55,4 +55,4 @@ net changes carry no cause attribution; Information's decline is context where A
 announcements concentrate, never a measurement of AI's effect. Hand-entered monthly from BLS
 releases; API automation is a planned upgrade.
 
-**Update cadence.** OEWS annually; WARN weekly per state scrape; Challenger monthly; exposure scores as literature updates.
+**Update cadence.** OEWS annually; WARN daily per state scrape; Challenger monthly; exposure scores as literature updates.

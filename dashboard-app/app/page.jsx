@@ -65,14 +65,14 @@ export default function Page() {
         Two different measures share this chart. <b>Gray bars</b>: every WARN layoff notice filed each month in four
         states, whatever the cause &mdash; the background rate of mass layoffs (the 2020 spike is the pandemic).
         <b> Red dots</b>: individual companies whose layoffs we verified as AI-attributed in primary documents &mdash; a verified sample of the 87,714 above (Challenger counts ~183 companies but publishes no list), placed by announced headcount. Almost none of these appear as AI in WARN filings
-        (1 in 5,081, above). Blaming AI is rising fast in 2026; whether layoffs themselves are is a
+        (1 in 5,083, above). Blaming AI is rising fast in 2026; whether layoffs themselves are is a
         different question, and no peak is projected &mdash; see methods.
       </p>
       {timeline ? <AttributionTimeline timeline={timeline} /> : <p>Loading timeline…</p>}
 
       <h2 style={S.h2}>3 · Displacement feed</h2>
       <p style={S.note}>
-        Scope: WARN events are U.S. worksite filings from four states' official archives (14,183 notices; 5,081 include a stated reason — Texas and Washington's archives omit that field). The curated employer
+        Scope: WARN events are U.S. worksite filings from four states' official archives (14,183 notices; 5,083 include a stated reason — Texas and Washington's archives omit that field). The curated employer
         statements (source tags beginning "press-") report company-wide headcounts as announced — several explicitly
         global — by U.S.-based companies; those figures are not U.S.-only job counts.
       </p>
